@@ -1,79 +1,75 @@
 # TravelEase-Tour-Booking-CRM
  
-
 ---
 
 ## 📌 Overview  
-**TravelEase** is a **Customer Relationship Management (CRM)** system designed for the **Travel & Tourism** industry. It enables travel agencies, agents, and managers to efficiently manage leads, bookings, travel packages, and customer follow-ups, reducing lead loss and improving customer satisfaction.  
+**TravelEase** is a **Salesforce-based CRM** solution designed for the **Travel & Tourism industry**.  
+It helps travel agencies streamline **lead capture, tour package management, booking automation, and customer feedback collection** — all within Salesforce.  
 
 ---
 
 ## 🎯 Problem Statement  
-Travel agencies often face challenges such as:  
-- Difficulty in tracking package inquiries and leads  
-- Missed follow-ups with customers  
-- Manual booking confirmations causing delays  
-- Lack of insights into sales performance  
+Travel agencies face challenges like:  
+- Tracking package inquiries across multiple channels  
+- Losing leads due to missed follow-ups  
+- Manual booking confirmation processes  
+- No centralized view of sales performance  
 
 ---
 
-## ✅ Solution – TravelEase CRM  
-TravelEase provides a **centralized CRM platform** with the following features:  
+## ✅ Salesforce Solution – TravelEase CRM  
+TravelEase leverages **Salesforce CRM capabilities**:  
 
-### 🔹 Lead Management  
-- Capture leads from website and social media  
-- Assign leads automatically to agents  
+### 🔹 Lead & Opportunity Management  
+- Capture leads directly from website forms & social media using **Web-to-Lead / API integration**  
+- Convert leads into **Opportunities** linked with travel packages  
+- Auto-assign leads to agents using **Assignment Rules**  
 
-### 🔹 Package Management  
-- Store package details (price, location, availability)  
-- Real-time updates for seasonal discounts and offers  
+### 🔹 Custom Objects for Package Management  
+- **Travel Package Object** → Stores price, location, availability  
+- Relationship with **Opportunities** for sales tracking  
+- Supports seasonal offers via **Custom Fields & Record Types**  
 
 ### 🔹 Booking Automation  
-- Automated booking confirmation via Email/SMS  
-- Payment tracking and booking status updates  
+- Automated booking confirmation emails/SMS via **Salesforce Flow + Email Alerts**  
+- **Payment Status Tracking** using custom fields & process automation  
 
 ### 🔹 Customer Engagement  
-- Collect customer feedback post-travel  
-- Maintain customer travel history for personalized offers  
+- Post-trip surveys using **Salesforce Surveys / Experience Cloud**  
+- Maintain **Customer 360 view** with past bookings & preferences  
 
-### 🔹 Analytics Dashboard  
-- Sales per package, agent, and time period  
-- Visual reports with charts and KPIs  
+### 🔹 Dashboards & Reports  
+- Agent-wise sales conversion rate  
+- Best-selling packages overview  
+- Revenue growth by month/quarter  
+- Customer satisfaction scores  
 
 ---
 
 ## 👥 Target Users  
 - **Travel Agents** → Manage leads, packages, and bookings  
-- **Customers** → Book packages and provide feedback  
-- **Managers/Admins** → Track sales, agent performance, and revenue  
+- **Customers** → Interact via web forms / portals  
+- **Managers/Admins** → Monitor sales, agent performance, and overall revenue  
 
 ---
 
-## 🏗️ Tech Stack (Suggested)  
-| Layer       | Technology Options |
-|-------------|--------------------|
-| **Frontend** | React / Angular |
-| **Backend** | Node.js / Django / Spring Boot |
-| **Database** | MySQL / PostgreSQL / MongoDB |
-| **APIs** | REST / GraphQL |
-| **Integrations** | Email, SMS, Social Media APIs |
-| **Deployment** | AWS / Azure / Docker |
+## 🏗️ Salesforce Components Used  
+| Component | Purpose |
+|-----------|---------|
+| **Leads & Opportunities** | Manage travel inquiries and conversions |
+| **Custom Objects** | Store package and booking details |
+| **Flows & Process Builder** | Automate confirmations and follow-ups |
+| **Reports & Dashboards** | Sales insights and performance tracking |
+| **Email Templates** | Standardized communication with customers |
+| **Experience Cloud (Optional)** | Customer self-service booking portal |
 
 ---
 
 ## 🚀 Future Enhancements  
-- 🤖 AI-based travel recommendations  
-- 💬 Chatbot for instant customer queries  
-- 🌍 Multi-currency & multi-language support  
-- 🔗 Integration with global travel APIs (Amadeus, Skyscanner, etc.)  
-
----
-
-## 📊 Example Dashboard Features  
-- 📌 Top 5 best-selling packages  
-- 👥 Agent-wise lead conversion rate  
-- 📈 Monthly revenue growth graph  
-- ⭐ Customer satisfaction ratings  
+- 🤖 AI-powered lead scoring using **Einstein Lead Scoring**  
+- 💬 AI Chatbot for travel FAQs (Einstein Bots)  
+- 🌍 Multi-currency & multi-language support in Salesforce  
+- 🔗 Integration with travel APIs (Amadeus, Skyscanner) via **Salesforce API Connectors**  
 
 ---
 
